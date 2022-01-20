@@ -10,7 +10,13 @@ CREATE SCHEMA trainingdb ;
 
 Voir fichier ".env.example"
 
-3- Commande pour générer une migration :
+3- Installation des dépendances
+
+```sh
+npm install
+```
+
+4- Commande pour générer une migration :
 
 (après avoir créer le script suivant dans le package.json : "typeorm:cli": "ts-node ./node_modules/typeorm/cli")
 
@@ -20,20 +26,20 @@ npm run typeorm:cli -- migration:generate -n +"nom de votre migration"
 
 (ex : "npm run typeorm:cli -- migration:generate -n InitDataBase" => création de la migration nommée InitDataBase)
 
-4- Commande pour lancer la migration :
+5- Commande pour lancer la migration :
 
 ```sh
 npm run typeorm:cli -- migration:run
 ```
 
-5- Lancement du serveur :
+6- Lancement du serveur :
 
 ```sh
 npm start
 ```
 
-## Use it as a starter
+## Starter
 
-Just create your own models in the `src/models` folder and your resolvers in `src/resolvers` to create your API!
+Pour créer l'API, compléter selon votre besoin les dossiers `src/models` et `src/resolvers`.
 
 source : <https://github.com/aleygues/lc-typegraphql-typeorm-authentication>
