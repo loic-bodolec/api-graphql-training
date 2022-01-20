@@ -2,6 +2,8 @@
 
 (pré-requis : node + npm + mysql)
 
+lien vers le repo "front": <https://github.com/loic-bodolec/react-graphql-training>
+
 ## Installation & Run
 
 1- Créer la base de données dans MYSQL
