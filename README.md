@@ -1,5 +1,7 @@
 # TypeGraphQL + TypeORM + TypeScript
 
+(pré-requis : node + npm + mysql)
+
 ## Installation & Run
 
 1- Créer la base de données dans MYSQL
@@ -40,6 +42,6 @@ npm start
 
 ## Starter
 
-Pour créer l'API, compléter selon votre besoin les dossiers `src/models` et `src/resolvers`.
+Pour créer l'API, complétez selon votre besoin les dossiers `src/models` et `src/resolvers`.
 
 source : <https://github.com/aleygues/lc-typegraphql-typeorm-authentication>
