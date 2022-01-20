@@ -35,3 +35,5 @@ npm start
 ## Use it as a starter
 
 Just create your own models in the `src/models` folder and your resolvers in `src/resolvers` to create your API!
+
+source : <https://github.com/aleygues/lc-typegraphql-typeorm-authentication>
